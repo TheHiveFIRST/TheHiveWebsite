@@ -1,0 +1,137 @@
+.home-section {
+  position: relative;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  background-image: url('./Assets/Static Icons/Home Page Picture.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Make the background fixed */
+  color: white;
+  text-align: center;
+}
+
+.who-section {
+  display: flex; /* Use flexbox to position items side by side */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  padding: 50px;
+  gap: 30px; /* Space between the image and text */
+  flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
+}
+
+.robot-pic {
+  margin: 0; /* Reset margin */
+  width: 400px; /* Fixed width */
+  height: 400px; /* Fixed height */
+  overflow: hidden; /* Ensure no overflow */
+  position: relative;
+  flex-shrink: 0; /* Prevent shrinking */
+  flex-grow: 0; /* Prevent growing */
+}
+
+.transition-image {
+  width: 100%;
+  height: 100%;
+  transition: opacity 1s ease-in-out; /* Smooth opacity transition */
+  opacity: 0; /* Start with hidden */
+}
+
+.fade-in {
+  opacity: 1; /* Fully visible when fading in */
+}
+
+.fade-out {
+  opacity: 0; /* Fully hidden when fading out */
+}
+
+.robot-pic img {
+  width: 100%; /* Make the image fill its container */
+  height: auto; /* Keep aspect ratio */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+.title {
+  font-family: "Tomorrow", sans-serif;
+  font-size: 2.5rem; /* Adjust size as needed */
+  color: #e3e3e3;
+  text-align: center;
+}
+
+.mt-5 {
+  margin-top: 2rem; /* Spacing utility class */
+}
+.teamName {
+  font-size: 18mm ;
+}
+.teamNo {
+  color: #ffff00;
+}
+
+.teamY {
+  color: #666600;
+}
+
+.teamJ {
+  color: #ffff00;
+}
+
+/* Add this for the text container */
+.who-section > div {
+  flex: 1; /* Allow the text container to grow */
+  text-align: left; /* Align text to the left */
+  align-self: normal;
+  max-width: 600px; /* Limit the max width for better readability */
+  margin-left: 20px; /* Add some margin for spacing */
+}
+.signup {
+  display: flex; /* Use flexbox to position items side by side */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  padding: 50px;
+  gap: 30px; /* Space between the image and text */
+  flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
+}
+
+.member-card {
+  display: flex; /* Use flexbox to align image and text */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 20px; /* Space between member cards */
+  padding: 20px; /* Padding around each member card */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #a1ab2c; /* Background color for member card */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.member-image {
+  width: 100px; /* Set width of image */
+  height: 100px; /* Set height of image */
+  border-radius: 50%; /* Make the image circular */
+  margin-right: 20px; /* Space between image and text */
+  object-fit: cover; /* Ensure image covers the area */
+  border: 2px solid #ddd; /* Optional: border around the image */
+}
+
+.member-info {
+  flex-grow: 1; /* Allow the text to grow */
+}
+
+.member-name {
+  font-size: 1.5rem; /* Size of the member's name */
+  color: #333; /* Text color */
+  margin-bottom: 5px; /* Margin below name */
+}
+
+.member-description {
+  font-size: 1rem; /* Size of the member's description */
+  color: #666; /* Text color */
+}
+/* Alternating colors for member cards */
+.member-card:nth-child(odd) {
+  background-color: #ffff99; /* Brighter yellow for odd cards */
+}
+
+.member-card:nth-child(even) {
+  background-color: #cccc00; /* Darker yellow for even cards */
+}
