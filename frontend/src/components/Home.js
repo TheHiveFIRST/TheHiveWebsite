@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
-import Robot from './Assets/Static Icons/Robot.png'; // Example image
-import TeamAtVic from './Assets/Static Icons/TeamAtVic.png'; // Example image
+import Robot from './Assets/HomePagePictures/Robot.png'; // Example image
+import TeamAtVic from './Assets/HomePagePictures/TeamAtVic.png'; // Example image
 // Import all other images here
-import Getting from './Assets/Static Icons/Getting.png';
-import Dinner from './Assets/Static Icons/Dinner.png';
-import CoolShot from './Assets/Static Icons/CoolShot.png';
-import Blarhaj from './Assets/Static Icons/Blarhaj.png';
-import TeamRaining from './Assets/Static Icons/TeamRaining.png';
-import BeeWensieFar from './Assets/Static Icons/BeeWensieFar.png';
+import Getting from './Assets/HomePagePictures/Getting.png';
+import Dinner from './Assets/HomePagePictures/Dinner.png';
+import CoolShot from './Assets/HomePagePictures/CoolShot.png';
+import Blarhaj from './Assets/HomePagePictures/Blarhaj.png';
+import TeamRaining from './Assets/HomePagePictures/TeamRaining.png';
+import BeeWensieFar from './Assets/HomePagePictures/BeeWensieFar.png';
 
 
 
