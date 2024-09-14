@@ -1,8 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React, { useEffect } from 'react';
+import ReactDOM from 'react-dom/client'; // Correct import for React 18+
 import './index.css';
 import App from './App';
-//import reportWebVitals from './reportWebVitals';
 
 function Root() {
   useEffect(() => {
@@ -36,7 +35,9 @@ function Root() {
   return <App />;
 }
 
-ReactDOM.render(<Root />, document.getElementById('root'));
+// Use ReactDOM.createRoot for React 18+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Root />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
