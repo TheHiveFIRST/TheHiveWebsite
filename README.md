@@ -3,7 +3,7 @@ Welcome! You have found the source code for the hive's official website! Feel fr
 
 ## Credits
 Delevoper - Liam Ramirez-Guess <br/>
-Authors - Armann Bansal, Ishana Mukherjee, Tae Hafalla <br/>
+Authors - Armaan Bansal, Ishana Mukherjee, Tae Hafalla <br/>
 Graphical Design - Gavin Bait, Liam Ramirez-Guess <br/>
 Photographer - Samson Hua <br/>
 Project Supervisor - Nikhil Srivastava <br/>
