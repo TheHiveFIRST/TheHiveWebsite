@@ -9,7 +9,8 @@ import CoolShot from './Assets/Static Icons/CoolShot.png';
 import Blarhaj from './Assets/Static Icons/Blarhaj.png';
 import TeamRaining from './Assets/Static Icons/TeamRaining.png';
 import BeeWensieFar from './Assets/Static Icons/BeeWensieFar.png';
-
+import MultiRobots from './Assets/Static Icons/MultipleRobots.png';
+import First from './Assets/Static Icons/First.png'
 
 
 
@@ -35,7 +36,7 @@ function AboutUs() {
   return (
     <div>
       <section className='title-section'>
-        <h1 className='title teamName'>
+        <h1 className='title astitle'>
           <span className='about'>About </span>
           <span className='us'>Us</span>
         </h1>
@@ -59,12 +60,31 @@ function AboutUs() {
       </section>
       <h1 className='title'>What is <span className='F'>First </span><span className='R'>Robotics </span><span className='C'>Competition?</span></h1>
       <section id='frc' className='frc-section'>
-        <h1 className='is-size-5'>Ok, now you know more about us, but what is <span className='F'>F</span><span className='R'>R</span><span className='C'>C</span>?
-        <br></br><br></br><span className='F'>F</span><span className='R'>R</span><span className='C'>C</span> is hosted by FIRST, so let's start there. FIRST Robotics is an international organization that fosters innovation and creativity in young students by engaging them in hands-on STEM (Science, Technology, Engineering, and Mathematics) challenges. Founded in 1989 by inventor Dean Kamen, the program offers various competitions where students design, build, and program robots to accomplish specific tasks. These competitions not only teach technical skills but also emphasize teamwork, problem-solving, and leadership. With a focus on fostering collaboration and learning in a real-world context, FIRST Robotics aims to inspire the next generation of engineers, scientists, and innovators.
-        The benefits of FIRST Robotics for young minds extend far beyond technical knowledge. By participating in these programs, students gain critical thinking abilities, build self-confidence, and develop a passion for STEM fields. Additionally, the experience helps them cultivate essential soft skills, such as communication and time management, which are invaluable in any career path. Many participants also form lasting connections with mentors and peers, opening up educational and professional opportunities in STEM industries.
-        <br></br><br></br>
-        The FIRST Robotics Competition (<span className='F'>F</span><span className='R'>R</span><span className='C'>C</span>) is a yearly event in which high school students are given roughly six weeks to prototype, design, test, build, and program an industrial-scale robot to compete against other teams in a sport-style competition. Unlike regular high school sports, the rules change drastically every year and the primary goal is to construct your ideal athlete. The nearest yearly competition event is the Canadian Pacific Regional in Victoria, where dozens of teams from North America, South America, and Asia gather to test their creations. This international event allows us to show off what Calgarian students can do on the world stage. Another large facet of the competition is outreach, wherein teams are encouraged to engage in community events and help get more people involved in STEM activities.
-        </h1>
+        <div className='frc-content'>
+            <div className='frc-text'>
+                <h1 className='is-size-5'>
+                    Ok, now you know more about us, but what is <span className='F'>F</span><span className='R'>R</span><span className='C'>C</span>?
+                    <br /><br />
+                    <span className='F'>F</span><span className='R'>R</span><span className='C'>C</span> is hosted by FIRST, so let's start there. FIRST Robotics is an international organization that fosters innovation and creativity in young students by engaging them in hands-on STEM (Science, Technology, Engineering, and Mathematics) challenges. Founded in 1989 by inventor Dean Kamen, the program offers various competitions where students design, build, and program robots to accomplish specific tasks. These competitions not only teach technical skills but also emphasize teamwork, problem-solving, and leadership. With a focus on fostering collaboration and learning in a real-world context, FIRST Robotics aims to inspire the next generation of engineers, scientists, and innovators. The benefits of FIRST Robotics for young minds extend far beyond technical knowledge. By participating in these programs, students gain critical thinking abilities, build self-confidence, and develop a passion for STEM fields. Additionally, the experience helps them cultivate essential soft skills, such as communication and time management, which are invaluable in any career path. Many participants also form lasting connections with mentors and peers, opening up educational and professional opportunities in STEM industries.
+                </h1>
+            </div>
+            {/* Add the MultiRobots image to the right of the text */}
+            <div className="first-image-container">
+                <img src={First} alt="First arena" className="first-image" />
+            </div>
+        </div>
+        
+        <div className='frc-content'>
+            {/* Add the MultiRobots image to the right of the text */}
+            <div className="frc-image-container">
+                <img src={MultiRobots} alt="FRC Robots" className="frc-image" />
+            </div>
+            <div className='frc-text'>
+                <h1 className='is-size-5'>
+                    The FIRST Robotics Competition (<span className='F'>F</span><span className='R'>R</span><span className='C'>C</span>) is a yearly event in which high school students are given roughly six weeks to prototype, design, test, build, and program an industrial-scale robot to compete against other teams in a sport-style competition. Unlike regular high school sports, the rules change drastically every year and the primary goal is to construct your ideal athlete. The nearest yearly competition event is the Canadian Pacific Regional in Victoria, where dozens of teams from North America, South America, and Asia gather to test their creations. This international event allows us to show off what Calgarian students can do on the world stage. Another large facet of the competition is outreach, wherein teams are encouraged to engage in community events and help get more people involved in STEM activities.
+                </h1>
+            </div>
+        </div>
       </section>
     </div>
   );
