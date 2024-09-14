@@ -4,7 +4,7 @@
     display: flex;
     align-items: center; /* Center content vertically */
     justify-content: center; /* Center content horizontally */
-    background-image: url('./Assets/Static Icons/AboutUsPicture.png');
+    background-image: url('./Assets/TitlePictures/AboutUsPicture.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Make the background fixed */
@@ -30,10 +30,10 @@
     flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
   }
   
-  .robot-pic {
+  .carousel {
     margin: 0; /* Reset margin */
-    width: 400px; /* Fixed width */
-    height: 400px; /* Fixed height */
+    width: 800px; /* Fixed width */
+    height: 557.5px; /* Fixed height */
     overflow: hidden; /* Ensure no overflow */
     position: relative;
     flex-shrink: 0; /* Prevent shrinking */

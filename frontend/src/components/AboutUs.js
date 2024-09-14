@@ -1,21 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import './AboutUs.css';
-import Robot from './Assets/Static Icons/Robot.png'; // Example image
-import TeamAtVic from './Assets/Static Icons/TeamAtVic.png'; // Example image
-// Import all other images here
-import Getting from './Assets/Static Icons/Getting.png';
-import Dinner from './Assets/Static Icons/Dinner.png';
-import CoolShot from './Assets/Static Icons/CoolShot.png';
-import Blarhaj from './Assets/Static Icons/Blarhaj.png';
-import TeamRaining from './Assets/Static Icons/TeamRaining.png';
-import BeeWensieFar from './Assets/Static Icons/BeeWensieFar.png';
-import MultiRobots from './Assets/Static Icons/MultipleRobots.png';
-import First from './Assets/Static Icons/First.png'
+//Wheel Pictures
+import BeeWensie from './Assets/AboutUsPictures/BeeWensie.png'; // Example image
+import Bobot from './Assets/AboutUsPictures/Bobot.png'; // Example image
+import Climbs from './Assets/AboutUsPictures/Climbs.png';
+import CoolAssShot from './Assets/AboutUsPictures/CoolAssShot.png';
+import DriveTeam from './Assets/AboutUsPictures/DriveTeam.png';
+import Gavin from './Assets/AboutUsPictures/Gavin.png';
+import Rolling from './Assets/AboutUsPictures/Rolling.png';
+import Serving from './Assets/AboutUsPictures/Serving.png';
+import Sponsors from './Assets/AboutUsPictures/Sponsors.png';
+//Text Pictures
+import MultiRobots from './Assets/AboutUsPictures/MultipleRobots.png';
+import First from './Assets/AboutUsPictures/First.png'
 
 
 
 function AboutUs() {
-  const images = [Robot, TeamAtVic, Getting, Dinner, CoolShot, Blarhaj, TeamRaining, BeeWensieFar]; // Add all your images here
+  const images = [BeeWensie, Bobot, Climbs, CoolAssShot, DriveTeam, Gavin, Rolling, Serving, Sponsors]; // Add all your images here
   const [currentImageIndex, setCurrentImageIndex] = useState(0); // Start with the first image
   const [fade, setFade] = useState(true); // State to control fading effect
 
@@ -43,7 +45,7 @@ function AboutUs() {
       </section>
       <h1 className='title mt-5'>Who we are</h1>
       <section id='pictures' className='pictures-section'>
-        <figure className='robot-pic'>
+        <figure className='carousel'>
             <img
                 src={images[currentImageIndex]} // Use the current image index
                 alt="Robot"
@@ -73,7 +75,7 @@ function AboutUs() {
                 <img src={First} alt="First arena" className="first-image" />
             </div>
         </div>
-        
+
         <div className='frc-content'>
             {/* Add the MultiRobots image to the right of the text */}
             <div className="frc-image-container">
