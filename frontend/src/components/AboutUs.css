@@ -1,0 +1,111 @@
+.title-section {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    background-image: url('./Assets/Static Icons/Home Page Picture.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Make the background fixed */
+    color: white;
+    text-align: center;
+  }
+  
+  .pictures-section {
+    display: flex; /* Use flexbox to position items side by side */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    padding: 50px;
+    gap: 30px; /* Space between the image and text */
+    flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
+  }
+
+  .who-section {
+    display: flex; /* Use flexbox to position items side by side */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    padding: 50px;
+    gap: 30px; /* Space between the image and text */
+    flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
+  }
+  
+  .robot-pic {
+    margin: 0; /* Reset margin */
+    width: 400px; /* Fixed width */
+    height: 400px; /* Fixed height */
+    overflow: hidden; /* Ensure no overflow */
+    position: relative;
+    flex-shrink: 0; /* Prevent shrinking */
+    flex-grow: 0; /* Prevent growing */
+    align-self: center;
+    justify-self: center;
+  }
+  
+  .transition-image {
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease-in-out; /* Smooth opacity transition */
+    opacity: 0; /* Start with hidden */
+  }
+  
+  .fade-in {
+    opacity: 1; /* Fully visible when fading in */
+  }
+  
+  .fade-out {
+    opacity: 0; /* Fully hidden when fading out */
+  }
+  
+  .robot-pic img {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Keep aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+  }
+  
+  .title {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 2.5rem; /* Adjust size as needed */
+    color: #e3e3e3;
+    text-align: center;
+  }
+  
+  .mt-5 {
+    margin-top: 2rem; /* Spacing utility class */
+  }
+  .teamName {
+    font-size: 18mm ;
+  }
+  .about {
+    color: #ffff00;
+  }
+  
+  .us {
+    color: #666600;
+  }
+  .F {
+    color: #e51b21;
+  }
+  .R {
+    color: #fefefe;
+  }
+  .C {
+    color: #0162b0;
+  }
+  
+  /* Add this for the text container */
+  .who-section > div {
+    flex: 1; /* Allow the text container to grow */
+    text-align: left; /* Align text to the left */
+    align-self: normal;
+    max-width: 1200px; /* Limit the max width for better readability */
+    margin-left: 20px; /* Add some margin for spacing */
+  }
+  .frc-section {
+    display: flex; /* Use flexbox to position items side by side */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    padding: 50px;
+    gap: 30px; /* Space between the image and text */
+    flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
+  }
