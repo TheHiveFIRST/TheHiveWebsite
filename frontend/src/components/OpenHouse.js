@@ -14,7 +14,7 @@ function OpenHouse() {
           <span className='house'>House</span>
         </h1>
       </section>
-      <h1 className='title mt-6'>What?</h1>
+      <h1 className={localStorage.getItem('theme') === 'dark' ? 'title mt-6' : 'title mt-6 has-text-grey-darker'}>What?</h1>
       <section id='what' className='what-section'>
         <div>
             <h1 className='is-size-5'>
@@ -22,7 +22,7 @@ function OpenHouse() {
             </h1>
         </div>
       </section>
-      <h1 className='title'>Next open houses:</h1>
+      <h1 className={localStorage.getItem('theme') === 'dark' ? 'title' : 'title has-text-grey-darker'}>Next open houses:</h1>
       <section id='dates' className='dates-section'>
         <span className='subtitle'>Dates:</span>
         <br /><br />
@@ -38,7 +38,7 @@ function OpenHouse() {
                 </figure>
             </div>
             <div className="card-content pl-0">
-            <p className="subtitle is-size-4 has-text-info-light" style={{ marginTop: '0px' }}>
+            <p className={localStorage.getItem('theme') === 'dark' ? "subtitle is-size-4 has-text-info-light" : "subtitle is-size-4 has-text-info"} style={{ marginTop: '0px' }}>
                 <p>September 28th, 2024</p>
             </p>
             <p className='is-size-5'>Location: 18th Scouts Canada Hall, 1919 19th St SW</p>
