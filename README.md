@@ -2,7 +2,7 @@
 Welcome! You have found the source code for the hive's official website! Feel free to contribute, or just browse around. If you have found a bug, please create and issue.
 
 ## Credits
-Delevoper - Liam Ramirez-Guess <br/>
+Delevoper - <a href="https://github.com/LRGuess">Liam Ramirez-Guess</a> <br/>
 Authors - Armaan Bansal, Ishana Mukherjee, Tae Hafalla <br/>
 Graphical Design - Gavin Bait, Liam Ramirez-Guess <br/>
 Photographer - Samson Hua <br/>
@@ -12,4 +12,7 @@ Project Supervisor - Nikhil Srivastava <br/>
 This website in made using React and Bulma. To work on the website locally please clone the project, open it in your preffered ide and run npm install in the project root folder and frontend folder. Always create a new branch before pushing, and create a pull request when ready to merge.
 
 ## Deploys
-The official version of the website is deployed on Netlify. Only @LRGuess can manage these deploys. Please contact him in case of any questions.
+The official version of the website is deployed on Netlify. Only <a href="https://github.com/LRGuess">@LRGuess</a> can manage these deploys. Please contact him in case of any questions.
+
+### Development Previews:
+Main branch preview: https://main--9449yellowjackets.netlify.app/
