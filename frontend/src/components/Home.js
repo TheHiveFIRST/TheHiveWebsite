@@ -67,7 +67,11 @@ function Home() {
       </section>
       <h1 className='title'>Sign up</h1>
       <section id='signup' className='signup'>
-        <h1 className='is-size-5'>If you want to join us, please fill out <a href='https://forms.gle/bwP5wjmxCFyg7ALx6'>this</a> form! <br></br>We occaitionally host open houses, check <a href='/openhouse'>here!</a></h1>
+        <h1 className='is-size-5'>If you want to join us, please fill out <a href='https://forms.gle/bwP5wjmxCFyg7ALx6'>this</a> form!</h1>
+      </section>
+      <h1 className='title'>Open houses</h1>
+      <section id='openhouses' className='openhouse'>
+        <h1 className='is-size-5'> We host yearly open houses for the public! If you would like to come and take a look into what FRC is and explore the possibilities of STEM, take a look at our <a href='openhouse'>Open houses</a> page!</h1>
       </section>
       {/* <h1 className='title'>The Members</h1>
       <section id='members' className='members'>

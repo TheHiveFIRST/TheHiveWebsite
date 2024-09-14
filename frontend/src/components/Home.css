@@ -93,7 +93,14 @@
   gap: 30px; /* Space between the image and text */
   flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
 }
-
+.openhouse {
+  display: flex; /* Use flexbox to position items side by side */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  padding: 50px;
+  gap: 30px; /* Space between the image and text */
+  flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
+}
 .member-card {
   display: flex; /* Use flexbox to align image and text */
   align-items: center; /* Center items vertically */
