@@ -69,7 +69,7 @@ function Home() {
       <section id='signup' className='signup'>
         <h1 className='is-size-5'>If you want to join us, please fill out <a href='https://forms.gle/bwP5wjmxCFyg7ALx6'>this</a> form!</h1>
       </section>
-      <h1 className='title'>The Members</h1>
+      {/* <h1 className='title'>The Members</h1>
       <section id='members' className='members'>
         {members.map((member, index) => (
           <div className='member-card' key={index}>
@@ -80,7 +80,7 @@ function Home() {
             </div>
           </div>
         ))}
-      </section>
+      </section> */}
     </div>
   );
 }
