@@ -21,7 +21,7 @@ function Navbar() {
             <button className="navbar-link">Menu</button>
             <div className="navbar-dropdown">
               {/*<Link to="/members" className="navbar-item">Members</Link> */}
-              <Link target='blank' to="https://forms.gle/bwP5wjmxCFyg7ALx6" className="navbar-item">Join us!</Link>
+              <Link target='_blank' to="https://forms.gle/bwP5wjmxCFyg7ALx6" className="navbar-item">Join us!</Link>
               {/* <Link to="/submit" className='navbar-item'>Submit</Link>
               <Link to="/settings" className="navbar-item">Settings</Link> */}
             </div>

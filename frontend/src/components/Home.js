@@ -67,7 +67,7 @@ function Home() {
       </section>
       <h1 className='title'>Sign up</h1>
       <section id='signup' className='signup'>
-        <h1 className='is-size-5'>If you want to join us, please fill out <a href='https://forms.gle/bwP5wjmxCFyg7ALx6'>this</a> form!</h1>
+        <h1 className='is-size-5'>If you want to join us, please fill out <a href='https://forms.gle/bwP5wjmxCFyg7ALx6' target={'_blank'}>this</a> form!</h1>
       </section>
       <h1 className='title'>Open houses</h1>
       <section id='openhouses' className='openhouse'>
