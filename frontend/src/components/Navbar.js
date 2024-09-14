@@ -17,15 +17,8 @@ function Navbar() {
           </Link>
         </div>
         <div className="navbar-end">
-          <div className="navbar-item has-dropdown is-hoverable">
-            <button className="navbar-link">Menu</button>
-            <div className="navbar-dropdown">
-              {/*<Link to="/members" className="navbar-item">Members</Link> */}
-              <Link target='_blank' to="https://forms.gle/bwP5wjmxCFyg7ALx6" className="navbar-item">Join us!</Link>
-              {/* <Link to="/submit" className='navbar-item'>Submit</Link>
-              <Link to="/settings" className="navbar-item">Settings</Link> */}
-            </div>
-          </div>
+          <Link to="/openhouse" className='navbar-item'>Open Houses</Link>
+          <Link target='_blank' to="https://forms.gle/bwP5wjmxCFyg7ALx6" className="navbar-item">Join us!</Link>
         </div>
       </div>
     </nav>
