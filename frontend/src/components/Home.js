@@ -52,7 +52,7 @@ function Home() {
           <span className='teamJ'>jackets</span>
         </h1>
       </section>
-      <h1 className='title mt-5'>Who we are</h1>
+      <h1 className={localStorage.getItem('theme') === 'dark' ? 'title mt-5' : 'title mt-5 has-text-grey-darker'}>Who we are</h1>
       <section id='whoweare' className='who-section'>
         <figure className='robot-pic'>
           <img
@@ -65,11 +65,11 @@ function Home() {
             <h1 className='is-size-5'>Hey there! We are the 9449 Yellowjackets, a community FRC Team dedicated to bringing robotics to the heart of future engineers. Based in Calgary, we work every year to bring high school students into First Robotics Competition and teach all the essential robotics knoledge to succeed in the competition and to gain more knowledge before going into post-secondairy. Last season, as our first, we won the 2023-2024 Crescendo Rookie Inspires Award in the Canadian Pacific Comp, and hope to bring more awards to the tabe this year.<br></br> Read more here: <a href='/aboutus'>About us</a></h1>
         </div>
       </section>
-      <h1 className='title'>Sign up</h1>
+      <h1 className={localStorage.getItem('theme') === 'dark' ? 'title' : 'title has-text-grey-darker'}>Sign up</h1>
       <section id='signup' className='signup'>
         <h1 className='is-size-5'>If you want to join us, please fill out <a href='https://forms.gle/bwP5wjmxCFyg7ALx6' target={'_blank'}>this</a> form!</h1>
       </section>
-      <h1 className='title'>Open houses</h1>
+      <h1 className={localStorage.getItem('theme') === 'dark' ? 'title' : 'title has-text-grey-darker'}>Open houses</h1>
       <section id='openhouses' className='openhouse'>
         <h1 className='is-size-5'> We host yearly open houses for the public! If you would like to come and take a look into what FRC is and explore the possibilities of STEM, take a look at our <a href='openhouse'>Open houses</a> page!</h1>
       </section>
