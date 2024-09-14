@@ -18,16 +18,16 @@ function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0); // Start with the first image
   const [fade, setFade] = useState(true); // State to control fading effect
   // Array of member data
-  const members = [
-    { image: Robot, name: "John Doe", description: "Lead Engineer and team coordinator." },
-    { image: TeamAtVic, name: "Jane Smith", description: "Mechanical Engineer and robotics specialist." },
-    { image: Getting, name: "Michael Brown", description: "Software Engineer and strategist." },
-    { image: Dinner, name: "Sarah Johnson", description: "Electrical Engineer and robot designer." },
-    { image: CoolShot, name: "David Wilson", description: "Team leader and marketing expert." },
-    { image: Blarhaj, name: "Emma Davis", description: "Logistics and team operations manager." },
-    { image: TeamRaining, name: "Liam Anderson", description: "Programmer and data analyst." },
-    { image: BeeWensieFar, name: "Olivia Martinez", description: "Mentor and project advisor." },
-  ];
+    // const members = [
+    //   { image: Robot, name: "John Doe", description: "Lead Engineer and team coordinator." },
+    //   { image: TeamAtVic, name: "Jane Smith", description: "Mechanical Engineer and robotics specialist." },
+    //   { image: Getting, name: "Michael Brown", description: "Software Engineer and strategist." },
+    //   { image: Dinner, name: "Sarah Johnson", description: "Electrical Engineer and robot designer." },
+    //   { image: CoolShot, name: "David Wilson", description: "Team leader and marketing expert." },
+    //   { image: Blarhaj, name: "Emma Davis", description: "Logistics and team operations manager." },
+    //   { image: TeamRaining, name: "Liam Anderson", description: "Programmer and data analyst." },
+    //   { image: BeeWensieFar, name: "Olivia Martinez", description: "Mentor and project advisor." },
+    // ];
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -67,7 +67,7 @@ function Home() {
       </section>
       <h1 className='title'>Sign up</h1>
       <section id='signup' className='signup'>
-        <h1 className='is-size-5'>If you want to join us, please fill out <a href='https://forms.gle/bwP5wjmxCFyg7ALx6'>this</a> form! <br></br>We occaitionally host open houses, check <a href=''>here!</a></h1>
+        <h1 className='is-size-5'>If you want to join us, please fill out <a href='https://forms.gle/bwP5wjmxCFyg7ALx6'>this</a> form! <br></br>We occaitionally host open houses, check <a href='/openhouse'>here!</a></h1>
       </section>
       {/* <h1 className='title'>The Members</h1>
       <section id='members' className='members'>
