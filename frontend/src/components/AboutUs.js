@@ -37,7 +37,7 @@ function AboutUs() {
 
   return (
     <div>
-      <section className='title-section'>
+      <section className='au-title-section'>
         <h1 className='title astitle'>
           <span className='about'>About </span>
           <span className='us'>Us</span>
