@@ -12,7 +12,7 @@ function Navbar() {
       </div>
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <Link to="/leaderboards" className='navbar-item'>
+          <Link to="/aboutus" className='navbar-item'>
             About us
           </Link>
         </div>
@@ -20,7 +20,7 @@ function Navbar() {
           <div className="navbar-item has-dropdown is-hoverable">
             <button className="navbar-link">Menu</button>
             <div className="navbar-dropdown">
-              <Link to="/profile" className="navbar-item">Members</Link>
+              {/*<Link to="/members" className="navbar-item">Members</Link> */}
               <Link target='blank' to="https://forms.gle/bwP5wjmxCFyg7ALx6" className="navbar-item">Join us!</Link>
               {/* <Link to="/submit" className='navbar-item'>Submit</Link>
               <Link to="/settings" className="navbar-item">Settings</Link> */}
