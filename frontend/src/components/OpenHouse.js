@@ -30,7 +30,7 @@ function OpenHouse() {
             <div className="image is-100x100">
                 <figure className="image mt-3 mr-3 ml-3 mb-3">
                     <img
-                    className='is-rounded'
+                    className='is-rounded date-picture'
                     style={{ width: '100px', height: '100px' }}
                     src={DateSep28}
                     alt="Open house date"
