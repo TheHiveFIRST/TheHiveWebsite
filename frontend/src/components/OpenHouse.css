@@ -20,6 +20,11 @@
     gap: 30px; /* Space between the image and text */
     flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
   }
+  @media (max-width: 768px) {
+    .what-section{
+      padding:0px;
+    }
+  }
   
   .title {
     font-family: "Tomorrow", sans-serif;

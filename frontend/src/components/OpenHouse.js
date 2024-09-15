@@ -27,17 +27,17 @@ function OpenHouse() {
         <span className='subtitle'>Dates:</span>
         <br /><br />
         <div className='card' style={{ display: 'flex', flexDirection: 'row', marginBottom: '10px' }}>
-            <div className="image is-100x100">
+            <div className="image is-100x100 date-picture">
                 <figure className="image mt-3 mr-3 ml-3 mb-3">
                     <img
-                    className='is-rounded date-picture'
+                    className='is-rounded '
                     style={{ width: '100px', height: '100px' }}
                     src={DateSep28}
                     alt="Open house date"
                     />
                 </figure>
             </div>
-            <div className="card-content pl-0">
+            <div className="card-content pl-0 ml-4">
             <p className={localStorage.getItem('theme') === 'dark' ? "subtitle is-size-4 has-text-info-light" : "subtitle is-size-4 has-text-info"} style={{ marginTop: '0px' }}>
                 <p>September 28th, 2024</p>
             </p>
