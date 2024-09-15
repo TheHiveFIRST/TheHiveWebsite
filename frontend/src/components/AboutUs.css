@@ -29,6 +29,11 @@
     gap: 30px; /* Space between the image and text */
     flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
   }
+@media (max-width: 768px) {
+  .who-section{
+    padding:0px;
+  }
+}
   
   .carousel {
     margin: 0; /* Reset margin */
@@ -115,6 +120,11 @@
     align-items: center;
     justify-content: center;
     padding: 50px;
+  }
+  @media (max-width: 768px) {
+    .frc-section{
+      padding:0px;
+    }
   }
   
   .frc-content {
