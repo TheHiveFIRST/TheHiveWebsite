@@ -18,7 +18,7 @@ function OpenHouse() {
       <section id='what' className='what-section'>
         <div>
             <h1 className='is-size-5'>
-                Every year, at around the end of September (pre-season), the Yellowjackets host an open house! This is a great opportumity for you to drop by an see what it is like to be apart of an FRC team, and get involved! Weather you are looking to become a First mentor, or want your child to be apart of First you should take this opportuity to explore the endless posibilities of robotics! You will have the opportunity to meet mentors and students, some with years of experiance. We encouredge you to ask as many question as you like to fully undertand FRC and how it works, as well as asking about the overall structure of our team and how we operate. If this sound appealing to you, head on over to the next open house avalable! <br></br> Check below for details
+                Every year, at around the end of September (pre-season), the Yellowjackets host an open house! This is a great opportunity for you to drop by an see what it is like to be apart of an FRC team, and get involved! Weather you are looking to become a First mentor, or want your child to be apart of First you should take this opportunity to explore the endless possibilities of robotics! You will have the opportunity to meet mentors and students, some with years of experience. We encourage you to ask as many question as you like to fully understand FRC and how it works, as well as asking about the overall structure of our team and how we operate. If this sound appealing to you, head on over to the next open house available! <br></br> Check below for details
             </h1>
         </div>
       </section>
