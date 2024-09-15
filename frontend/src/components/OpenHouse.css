@@ -20,11 +20,10 @@
     gap: 30px; /* Space between the image and text */
     flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
   }
-  
-  .robot-pic img {
-    width: 100%; /* Make the image fill its container */
-    height: auto; /* Keep aspect ratio */
-    border-radius: 8px; /* Optional: rounded corners */
+  @media (max-width: 768px) {
+    .what-section{
+      padding:0px;
+    }
   }
   
   .title {
@@ -47,79 +46,11 @@
   .house {
     color: #666600;
   }
-  .F {
-    color: #e51b21;
-  }
-  .R {
-    color: #fefefe;
-  }
-  .C {
-    color: #0162b0;
-  }
+
   
-  /* Add this for the text container */
-  .who-section > div {
-    flex: 1; /* Allow the text container to grow */
-    text-align: left; /* Align text to the left */
-    align-self: normal;
-    max-width: 1200px; /* Limit the max width for better readability */
-    margin-left: 20px; /* Add some margin for spacing */
+/* Hide images on screens smaller than 768px (mobile) */
+@media (max-width: 768px) {
+  .date-picture {
+    display: none;
   }
-  .frc-section {
-    display: flex; /* Use flexbox to position items side by side */
-    align-items: center; /* Center items vertically */
-    justify-content: center; /* Center items horizontally */
-    padding: 50px;
-    gap: 30px; /* Space between the image and text */
-    flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
-  }
-  .frc-section {
-    display: flex; 
-    flex-direction: column; /* Stack text and image container */
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-  }
-  
-  .frc-content {
-    display: flex;
-    align-items: center; /* Align text and image vertically */
-    justify-content: space-between; /* Create space between text and image */
-    gap: 20px; /* Space between the text and image */
-    max-width: 1200px; /* Limit the overall width */
-  }
-  
-  .frc-text {
-    flex: 1; /* Let the text take up available space */
-    text-align: left; /* Align text to the left */
-  }
-  
-  .first-image-container {
-    flex-shrink: 0; /* Prevent the image from shrinking */
-    max-width: 400px; /* Set a maximum width for the image */
-  }
-  
-  .first-image {
-    width: 100%; /* Make the image fill its container */
-    height: auto; /* Maintain the aspect ratio */
-    border-radius: 8px; /* Optional: rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
-  }
-  .frc-image-container {
-    flex-shrink: 0; /* Prevent the image from shrinking */
-    max-width: 400px; /* Set a maximum width for the image */
-  }
-  
-  .frc-image {
-    width: 100%; /* Make the image fill its container */
-    height: auto; /* Maintain the aspect ratio */
-    border-radius: 8px; /* Optional: rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
-  }
-  
-  .frc-bottom-text {
-    margin-top: 20px; /* Add space between the image and bottom text */
-    text-align: left; /* Align bottom text to the left */
-    max-width: 1200px; /* Limit the width of the bottom text */
-  }
-  
+}

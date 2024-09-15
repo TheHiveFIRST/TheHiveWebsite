@@ -12,7 +12,7 @@
   text-align: center;
 }
 
-.who-section {
+.home-who-section {
   display: flex; /* Use flexbox to position items side by side */
   align-items: center; /* Center items vertically */
   justify-content: center; /* Center items horizontally */
@@ -20,7 +20,12 @@
   gap: 30px; /* Space between the image and text */
   flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
 }
-
+/* Hide images on screens smaller than 768px (mobile) */
+@media (max-width: 768px) {
+  .home-who-section {
+    padding: 0px;
+  }
+}
 .robot-pic {
   margin: 0; /* Reset margin */
   width: 400px; /* Fixed width */
@@ -78,7 +83,7 @@
 }
 
 /* Add this for the text container */
-.who-section > div {
+.home-who-section > div {
   flex: 1; /* Allow the text container to grow */
   text-align: left; /* Align text to the left */
   align-self: normal;
@@ -93,6 +98,12 @@
   gap: 30px; /* Space between the image and text */
   flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
 }
+/* Hide images on screens smaller than 768px (mobile) */
+@media (max-width: 768px) {
+  .signup {
+    padding: 0px;
+  }
+}
 .openhouse {
   display: flex; /* Use flexbox to position items side by side */
   align-items: center; /* Center items vertically */
@@ -100,6 +111,12 @@
   padding: 50px;
   gap: 30px; /* Space between the image and text */
   flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
+}
+/* Hide images on screens smaller than 768px (mobile) */
+@media (max-width: 768px) {
+  .openhouse {
+    padding: 0px;
+  }
 }
 .member-card {
   display: flex; /* Use flexbox to align image and text */

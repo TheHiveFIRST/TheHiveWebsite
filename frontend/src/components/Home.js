@@ -53,7 +53,7 @@ function Home() {
         </h1>
       </section>
       <h1 className={localStorage.getItem('theme') === 'dark' ? 'title mt-5' : 'title mt-5 has-text-grey-darker'}>Who we are</h1>
-      <section id='whoweare' className='who-section'>
+      <section id='whoweare' className='home-who-section'>
         <figure className='robot-pic'>
           <img
             src={images[currentImageIndex]} // Use the current image index

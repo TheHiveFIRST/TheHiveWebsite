@@ -29,6 +29,11 @@
     gap: 30px; /* Space between the image and text */
     flex-wrap: wrap; /* Allow wrapping to prevent shrinkage */
   }
+@media (max-width: 768px) {
+  .who-section{
+    padding:0px;
+  }
+}
   
   .carousel {
     margin: 0; /* Reset margin */
@@ -116,6 +121,11 @@
     justify-content: center;
     padding: 50px;
   }
+  @media (max-width: 768px) {
+    .frc-section{
+      padding:0px;
+    }
+  }
   
   .frc-content {
     display: flex;
@@ -159,3 +169,9 @@
     max-width: 1200px; /* Limit the width of the bottom text */
   }
   
+/* Hide images on screens smaller than 768px (mobile) */
+@media (max-width: 768px) {
+  .first-image, .frc-image {
+    display: none;
+  }
+}
