@@ -159,3 +159,9 @@
     max-width: 1200px; /* Limit the width of the bottom text */
   }
   
+/* Hide images on screens smaller than 768px (mobile) */
+@media (max-width: 768px) {
+  .first-image, .frc-image {
+    display: none;
+  }
+}
