@@ -3,7 +3,6 @@ import './OpenHouse.css';
 //Open house pics
 import DateSep28 from './Assets/OpenHousePictures/Sept28.png';
 
-
 function OpenHouse() {
 
   return (
@@ -22,7 +21,19 @@ function OpenHouse() {
             </h1>
         </div>
       </section>
-      <h1 className={localStorage.getItem('theme') === 'dark' ? 'title' : 'title has-text-grey-darker'}>Next open houses:</h1>
+      <section id='video-section' className='video-section'>
+      <div className='video-container'>
+        <iframe 
+          width="100%" 
+          src="https://youtu.be/m2hxtPRhQyk?si=lmse36m8QpNWHIX7" 
+          title="YouTube video player" 
+          frameBorder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowFullScreen>
+        </iframe>
+      </div>
+      </section>
+      <h1 className={localStorage.getItem('theme') === 'dark' ? 'title mt-6' : 'title has-text-grey-darker mt-6'}>Next open houses:</h1>
       <section id='dates' className='dates-section'>
         <span className='subtitle'>Dates:</span>
         <br /><br />
